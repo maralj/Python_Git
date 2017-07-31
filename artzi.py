@@ -11,13 +11,6 @@ def art(radius):
     color = "red"
     for k in range (number):
         print(color)
-        #if k < number/2:
-         #   color = "blue"
-         #   print("blue ")
-        #else:
-    # changing color for the 2nd half
-         #   color = "red"
-          #  print("red")
         for i in range (side):
             pencil.pencolor(color)
             pencil.fd(length)
