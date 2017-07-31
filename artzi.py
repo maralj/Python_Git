@@ -7,17 +7,10 @@ def art(radius):
     length = c/side
     rotate = 360/90
     number = 90
-    # setting thre defult color to blue
+    # setting defult color to blue
     color = "red"
     for k in range (number):
         print(color)
-        #if k < number/2:
-         #   color = "blue"
-         #   print("blue ")
-        #else:
-    # changing the color for the 2nd half
-         #   color = "red"
-          #  print("red")
         for i in range (side):
             pencil.pencolor(color)
             pencil.fd(length)
